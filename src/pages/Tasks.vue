@@ -50,6 +50,7 @@
 
 <script setup lang="ts">
 import { computed, reactive, onMounted, ref } from "vue";
+import { getCards } from '../services/cardService';
 
 const columns = [
   { label: "TO-DO", status: "to-do" },
@@ -77,8 +78,7 @@ const dragOverColumn = ref(null);
 let wasDropped = false;
 
 onMounted(async () => {
-  const res = await fetch("https://q1z3telex7a9metry.denaliops.com/data.json");
-  const data = await res.json();
+  const data = await getCards();
   data.forEach((card, idx) => card.id = idx + 1);
   // Distribute cards by status
   columns.forEach(col => cardsByStatus[col.status].splice(0, cardsByStatus[col.status].length));
