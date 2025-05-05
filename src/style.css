@@ -1,0 +1,131 @@
+:root {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(33, 53, 71, 1);
+  background-color: #f9f9f9 !important;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: #213547;
+  background: #f9f9f9;
+}
+
+h1 {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin: 3px 0px 20px 0px !important
+}
+
+h2 {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  margin-top: 6px;
+}
+
+h3 {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.nav-label {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+button, .button-text {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.dialog-text {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+p, .body-text {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.card {
+  padding: 2em;
+}
+
+.page-title{
+  font-weight: 500;
+
+}
+
+#app {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  /* text-align: center; */
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
